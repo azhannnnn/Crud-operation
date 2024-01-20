@@ -1,6 +1,6 @@
 from django.db import models
 
-# asdfghjklpoiuytrewqzxcvbnm
+# Azhan khan
 class User(models.Model):
     fname = models.CharField(max_length=20)
     lname = models.CharField(max_length=20)
