@@ -1,5 +1,5 @@
 from django.db import models
-
+# First commit
 class User(models.Model):
     fname = models.CharField(max_length=20)
     lname = models.CharField(max_length=20)
@@ -9,3 +9,4 @@ class User(models.Model):
 class Query(models.Model):
     Email = models.EmailField()
     query = models.CharField(max_length=100)
+
